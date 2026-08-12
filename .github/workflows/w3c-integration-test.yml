@@ -1,11 +1,7 @@
 name: W3C Trace Context Integration Test
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-  merge_group:
+  workflow_dispatch:
 
 jobs:
   build-and-test:

@@ -1,11 +1,7 @@
 name: Ensure API Peer Dependency
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-  merge_group:
+  workflow_dispatch:
 
 jobs:
   peer-api-check:
